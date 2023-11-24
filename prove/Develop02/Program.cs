@@ -51,5 +51,12 @@ while (true)
             string saveFileName = Console.ReadLine();
             journals.SaveToFile("Journal.txt");
             break;
+        case 5:
+        // exit the program
+        Environment.Exit(0);
+        break;
+        default:
+        Console.WriteLine("Invalid Choice");
+        break;
     }
 }
