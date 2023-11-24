@@ -6,6 +6,7 @@ PromptGenerator _prompt = new PromptGenerator();
 Journals journals = new Journals();
 // call entry
 Entry entry = new Entry();
+// call the date
 
 while (true)
 {
@@ -14,7 +15,6 @@ while (true)
     Console.WriteLine("2. Display the journal.");
     Console.WriteLine("3. Load");
     Console.WriteLine("4. Save");
-    Console.WriteLine("5. Quit.");
 
     int choice = int.Parse(Console.ReadLine());
 

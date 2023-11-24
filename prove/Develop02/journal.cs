@@ -33,12 +33,13 @@ public class Journals
     // reading text from file
     public void ReadFromFile(){
         foreach (string line in lines){
-            string [] parts = line.Split(" ");
-            if (parts.Length >= 2)  // Check if there is a second part
-            {
-                string text = parts[1];
-                Console.WriteLine(text);
-            }
+            // string [] parts = line.Split(" ");
+            // if (parts.Length >= 2)  // Check if there is a second part
+            // {
+            //     string text = parts[1];
+            //     Console.WriteLine(text);
+            // }
+            Console.WriteLine(line);
         }
     }
 

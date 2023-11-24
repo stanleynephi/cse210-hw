@@ -10,9 +10,11 @@ public class Entry{
 
     public string _text;
 
+    public string _date;
+
 
     public void DisplayText(){
-        Console.WriteLine($"{_prompt}\n {_text}");
+        Console.WriteLine($"{_prompt}\n Date {_date}...{_text}");
     }
 
 }
