@@ -26,7 +26,7 @@ while (true)
             // convert quest to sting
             string questString = _prompt.ToString();
             // display the output
-            Console.WriteLine(questString);
+            Console.WriteLine(quest);
             // add prompt to entry
             // add entry to journal
             entry._text = Console.ReadLine();
